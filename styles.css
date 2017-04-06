@@ -36,3 +36,15 @@
 	width: 28vw;
 	margin: 6px;
 }
+
+.text-column p {
+	margin: 2px 0 5px 0;
+}
+
+.small-img {
+	float: right;
+	width: 12vw;
+	height: 12vw;
+	margin: 3px 7px;
+	border: 1px solid black;
+}
