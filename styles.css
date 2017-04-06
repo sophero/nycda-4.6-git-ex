@@ -1,11 +1,14 @@
-.gallery-container {
-	width: 90vw;
+
+.main-container {
+	width: 95vw;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	border: 1px dotted red;
 }
+
+/*Styles for portfolio page index.html*/
 
 .gallery-item {
 	border: 1px solid black;
@@ -22,4 +25,14 @@
 	width: 25vw;
 	height: 25vw;
 	margin: 3px 6px;
+}
+
+
+/*Styles for about page about.html*/
+
+.text-column {
+	display: inline-block;
+	text-align: justify;
+	width: 28vw;
+	margin: 6px;
 }
