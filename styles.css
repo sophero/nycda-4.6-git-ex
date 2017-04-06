@@ -1,0 +1,25 @@
+.gallery-container {
+	width: 90vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: 1px dotted red;
+}
+
+.gallery-item {
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.top-row .gallery-item {
+	width: 40vw;
+	height: 40vw;
+	margin: 4px 6px;
+}
+
+.second-row .gallery-item {
+	width: 25vw;
+	height: 25vw;
+	margin: 3px 6px;
+}
